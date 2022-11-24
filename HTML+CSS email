@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "">
+<html xmlns="">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Email Portfolio Sample</title>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+	body {
+		margin: 0;
+	}
+	table {
+		border-spacing: 0;
+	}
+	td {
+		padding: 0;
+	}
+	img {
+		border: 0;
+	}
+
+	.wrapper {
+		width: 100%;
+		table-layout: fixed;
+		background-color: #e5dec7;
+		padding-bottom: 60px;
+	}
+
+	.main {
+		width: 100%;
+		max-width: 600px;
+		background-color: #bcbfe7;
+		font-family: sans-serif;
+		color: #141313;
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+		text-align: center;
+	}
+
+	.social {
+		width: 38px;
+	}
+
+	.social-media {
+		padding: 12px 0 12px 62px;
+	}
+	
+	.two-columns {
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.two-columns.last {
+		padding: 35px 0;
+        background-color: #bcbfe7;
+	}
+	.three-columns .padding {
+		padding: 20px;
+	}
+
+	.three-columns .content {
+		text-align: left;
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.two-columns .column {
+		width: 100%;
+		max-width: 300px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	h3 {
+		font-family: 'Roboto Condensed' sans-serif;
+	}
+
+	.button {
+		background-color: rgb(37, 146, 43);
+		color: #fff;
+		text-decoration: none;
+		padding: 12px 20px;
+		font-weight: bold;
+		border-radius: 25px;
+	}
+
+	h4 {
+		font-family: 'Roboto Condense' sans-serif;
+		font-size: 22px;
+	}
+
+	.three-columns {
+		font-size: 0;
+		padding: 35px 0 20px;
+
+	}
+	.three-columns .column {
+		width: 100%;
+		max-width: 200px;
+		display: inline-block;
+		vertical-align: top;
+
+	}
+	.three-columns .padding {
+		padding: 25px;
+
+	}
+	.three-columns .content {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+    button {
+        background-color: rgb(37, 146, 43);
+        color: white;
+        border-radius: 25px;
+        height: 40px;
+        width: 150px;
+    }
+
+</style>
+</head>
+<body>
+
+	<center class="wrapper">
+
+		<table class="main" width="100%">
+
+<!-- BORDER -->
+
+<tr>
+	<td height="8px" style="background-color: #000;"></td>
+</tr>
+
+<!-- LOGO & SOCIAL MEDIA SECTION -->
+<tr>
+	<td style="padding: 14px 0 4px;">
+		<table width-100%>
+			
+			<tr>
+				<td class="two-columns">
+
+					<table class="column">
+						<tr>
+							<td style="padding: 0 22px 10px;">
+								<a href="#"><img src="https://i.ibb.co/rH8kKX3/incredible-logo-removebg-preview.png" alt="incredible-logo-removebg-preview" border="0" alt="logo" title="logo" width="250"></a>
+							</td>
+						</tr>
+					</table>
+
+					<table class="column">
+
+						<tr>
+							<td class="social-media">
+
+								<a href="#"><img src="https://i.ibb.co/NmnfFTT/white-facebook.png" alt="white-facebook" border="0" alt="" class="social"></a>
+								<a href="#"><img src="https://i.ibb.co/NjwNcxy/white-twitter.png" alt="white-twitter" border="0" alt="" class="social"></a>
+								<a href="#"><img src="https://i.ibb.co/M8N01Fk/white-youtube.png" alt="white-youtube" border="0" alt="" class="social"></a>
+								<img src="https://i.ibb.co/ySLkStF/white-linkedin.png" alt="white-linkedin" border="0" alt="" class="social"></a>
+								<a href="#"><img src="https://i.ibb.co/SR2bFZ2/white-instagram.png" alt="white-instagram" border="0" alt="" class="social"></a>
+
+							</td>
+						</tr>
+
+					</table>
+
+				</td>
+			</tr>
+
+		</table>
+	</td>
+</tr>
+			
+<!-- BANNER -->
+
+<tr>
+	<td>
+		<a href="#"><img src="https://i.ibb.co/pfgYp8s/banner.png" alt="banner" border="0"  alt="" width="600" style="max-width: 100%;"></a>
+	</td>
+</tr>
+			
+<!-- TITLE, TEXT & BUTTON -->
+<tr>
+	<td style="padding: 20px 15px 50px;">
+		<table width="100%">
+
+			<tr>
+				<td>
+
+					<h3>The Incredible Laptop <span style="color: #0616fa;">Black Friday Special</span></h3>
+					<p style="line-height: 23px; font-size: 15px;padding: 0 0 22px;">Get all kinds of laptop to suit your needs, with our black Friday Special. Laptop deals you cannot afford to miss out on.</p>
+					<a href="#" class="button">View Blog</a>
+
+
+				</td>
+			</tr>
+
+		</table>
+	</td>
+</tr>
+			
+<!-- BORDER -->
+
+	<tr>
+		<td height="2" style="background-color: #000;">
+
+		</td>
+	</tr>
+			
+<!-- THREE COLUMN SECTION -->
+
+<tr>
+	<td>
+		<table width="100%">
+
+			<tr>
+				<td class="three-columns">
+
+					<table class="column">
+						<tr>
+							<td class="padding">
+
+								<table class="content">
+
+									<tr>
+
+										<td>
+
+											<a href="#"><img src="https://i.ibb.co/K29GJks/Black-White-Minimalist-Business-Logo-3.png" alt="Black-White-Minimalist-Business-Logo-3" border="0" alt="" width="150"></a>
+
+										</td>
+
+									</tr>
+									<tr>
+										<td style="padding: 5px 0 10px;">
+											<h4>Student</h4>
+											<p>Make studing easy with these student starter pack laptops. Lowest prices you will find anywhere. Comes wit all pre installed software.
+											</p>
+										</td>
+									</tr>
+
+								</table>
+
+							</td>
+						</tr>
+					</table>
+
+					<table class="column">
+						<tr>
+							<td class="padding">
+
+								<table class="content">
+
+									<tr>
+
+										<td>
+
+											<a href="#"><img src="https://i.ibb.co/C6rBpvw/Black-White-Minimalist-Business-Logo-1.png" alt="Black-White-Minimalist-Business-Logo-1" border="0" alt="" width="150"></a>
+
+										</td>
+
+									</tr>
+									<tr>
+										<td style="padding: 5px 0 10px;">
+											<h4>Gamers</h4>
+											<p>Get Incredible deals for gamers laptops. Big ram, graphics and video cards. The perfect gaming laptop for novice and pro gamers</p>
+										</td>
+									</tr>
+
+								</table>
+
+							</td>
+						</tr>
+					</table>
+
+					<table class="column">
+						<tr>
+							<td class="padding">
+
+								<table class="content">
+
+									<tr>
+
+										<td>
+
+											<a href="#"><img src="https://i.ibb.co/6v4Pvrf/Black-White-Minimalist-Business-Logo-2.png" alt="Black-White-Minimalist-Business-Logo-2" border="0" alt="" width="150"></a>
+
+										</td>
+
+									</tr>
+									<tr>
+										<td style="padding: 5px 0 10px;">
+											<h4>Professional</h4>
+											<p>We understand what you need to make your work experience more pleasant. We have the best work house laptops to up-scale your productivity</p>
+										</td>
+									</tr>
+
+								</table>
+
+							</td>
+						</tr>
+					</table>
+
+				</td>
+			</tr>
+
+		</table>
+	</td>
+</tr>
+			
+<!-- BORDER -->
+
+			<tr>
+				<td height="2" style="background-color: #000;">
+
+				</td>
+			</tr>
+			
+<!-- TWO COLUMN SECTION -->
+			<tr>
+				<td>
+					<table width="100%">
+
+						<tr>
+							<td class="two-columns last">
+
+								
+								<table class="column">
+									<tr>
+										<td class="padding">
+
+											<table class="content">
+												<tr>
+													<td>
+														<a href="#"><img src="https://i.ibb.co/TYf2YYs/incredible-connection-1-removebg-preview.png" alt="incredible-connection-1-removebg-preview" border="0" alt="" width="260"></a>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+
+								<table class="column">
+									<tr>
+										<td class="padding">
+
+											<table class="content">
+												<tr>
+													<td>
+														<h4>More Deals On Accesories</h4>
+														<p>We have more than just laptops. Let us tell you sbout other goodies you can get at low prices.</p>
+
+														<p style="padding-bottom: 15px;">Laptop Bags, Laptop Speakers, Laptop Stands, Web-cams</p>
+														<a href="#" class="button">Buy Now</a>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+
+							</td>
+						</tr>
+
+					</table>
+				</td>
+			</tr>
+			
+<!-- FOOTER SECTION -->
+
+<tr>
+	<td style="background-color: #2b2e33; color: #fff;">
+		<table width="100%">
+
+			<tr>
+				<td>
+
+					<tr>
+						<td style="padding: 45px 20px;">
+							<a href="#"><img src="https://i.ibb.co/rH8kKX3/incredible-logo-removebg-preview.png" alt="incredible-logo-removebg-preview" border="0" alt="logo" title="logo" width="250"></a>
+							<p style="padding: 5px 0 3px;">Black Friday Specials</p>
+							<p style="padding: 3px;">Available at all our stores</p>
+                            <a href="#"><img src="https://i.ibb.co/NmnfFTT/white-facebook.png" alt="white-facebook" border="0" alt="" class="social"></a>
+                            <a href="#"><img src="https://i.ibb.co/NjwNcxy/white-twitter.png" alt="white-twitter" border="0" alt="" class="social"></a>
+                            <a href="#"><img src="https://i.ibb.co/M8N01Fk/white-youtube.png" alt="white-youtube" border="0" alt="" class="social"></a>
+                            <img src="https://i.ibb.co/ySLkStF/white-linkedin.png" alt="white-linkedin" border="0" alt="" class="social"></a>
+                            <a href="#"><img src="https://i.ibb.co/SR2bFZ2/white-instagram.png" alt="white-instagram" border="0" alt="" class="social"></a>
+
+                            
+
+							<p style="padding: 10px;"><button>SUBSCRIBE</button></p>
+						</td>
+					</tr>
+
+				</td>
+			</tr>
+
+		</table>
+	</td>
+</tr>
+
+<tr>
+	<td height="10" style="background-color: #000;">
+
+	</td>
+</tr>
+			
+
+		</table> <!-- End Main Class -->
+
+	</center> <!-- End Wrapper -->
+
+</body>
+</html>
